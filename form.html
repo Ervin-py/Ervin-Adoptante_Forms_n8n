@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+</head>
+<body>
+  <h1>Contact Me</h1>
+
+  <form action="https://n8n-Ervin.onrender.com/webhook-test/b4da089b-ffc3-4c4a-a62b-0e6bd329f028" method="POST">
+    <label for="name">Full Name / Company / Organization</label>
+    <input type="text" name="name" required>
+
+    <label for="email">Email</label>
+    <input type="email" name="email" required>
+
+    <label for="subject">Subject</label>
+    <input type="text" name="subject" required>
+
+    <label for="inquiry">Inquiry Type</label>
+    <select name="inquiry">
+      <option value="Job Opportunity">Job Opportunity</option>
+      <option value="General Inquiry">General Inquiry</option>
+    </select>
+
+    <label for="message">Your Message</label>
+    <textarea name="message" rows="6" cols="40" required></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</body>
+</html>
